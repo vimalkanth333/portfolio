@@ -2,11 +2,7 @@ const styleSwitcherToggle = document.querySelector(".style-switcher-toggler");
 styleSwitcherToggle.addEventListener("click", () => {
         document.querySelector(".style-switcher").classList.toggle("open");
     } )
-window.addEventListener("scroll", () => {
-        if (document.querySelector(".style-switcher").classList.contains("open")) {
-            document.querySelector(".style-switcher").classList.remove("open");
-        }
-    })
+
 const alternatestyles = document.querySelectorAll(".alternate-style");
 function setActiveStyle(color)
 {
